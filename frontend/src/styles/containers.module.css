@@ -1,0 +1,28 @@
+.main-container {
+	background-color: var(--background-dark);
+	border-radius: 1rem;
+	padding: 1.5rem 2rem 1.5rem;
+	width: clamp(30rem, 50rem, 60rem);
+	min-height: clamp(20em, 35rem, 50rem);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--text-light);
+}
+
+.image-container {
+	border-radius: 1rem;
+	padding: 1rem;
+	width: 10rem;
+	height: 10rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	color: var(--text-light);
+	background-color: #1616167e;
+}

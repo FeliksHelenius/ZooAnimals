@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+	--brand-color: #1a5259;
+	--brand-shade1: #1e4f39;
+	--brand-shade2: #3e8fa3;
+	--text-dark: #262626;
+	--text-light: #f2f2f2;
+	--text-lighter: #fff;
+	--subtle-dark: #e7e7e7;
+	--text-lightdark: #999;
+	--text-links: #3e8fa3;
+	--background-dark: #161616;
+	--background-light: #fafafa;
+	--card-background: #fff;
+
+	--default-color: rgb(95, 138, 255);
+	--warning-color: #c0392b;
+	--warning-color-active: #9b2b1e;
+
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	margin: 0;
+	background-color: var(--background-light);
+	font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+	fill: white;
+	transition: filter 100ms ease-out;
+}
+
+.icon-menu:hover,
+.icon-close:hover {
+	cursor: pointer;
+	/* filter: brightness(70%); */
+}
+
+.divider {
+	color: var(--text-light);
+	width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	.divider {
+		width: 100%;
+	}
+}
+
+/* extra styles */
+
+li::marker {
+	color: var(--brand-color);
+}
